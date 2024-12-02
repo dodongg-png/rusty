@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+
+.sidebar {
+  width: 20%;
+  background-color: #181d29;
+  color: white;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+.logo:hover{
+  width: 73px ;
+}
+
+.logo-section{
+    display: inline-flex;
+    margin-left: 20px;
+}
+.name{
+    margin-top: 20px;
+    color: white;
+    margin-left: 10px;
+}
+.pic{
+    width: 500px;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.menu-item.active {
+  background-color: orange;
+}
+
+
+.icon {
+  margin-right: 10px;
+}
+
+
+.main-content {
+  width: 80%;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #b68423;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.username {
+  margin-right: 20px;
+  color: black;
+  margin-left: 5px;
+}
+
+.logout {
+  padding: 5px 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.logout:hover{
+  background-color: darkorange;
+  color: black;
+    padding: 10px 15px;
+}
+
+
+.panels {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+  background-color: #ffe9b9;
+}
+
+.panel {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bar-chart {
+  margin-top: -44px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 30px;
+}
+.bar-chart img{
+  width: 400px;
+}
+
+.bar {
+  width: 15%;
+  background-color: #00d4ff;
+}
+
+.pie-chart {
+  margin-top: -44px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 30px;
+}
+.pie-chart img{
+  width: 250px;
+  margin-left: 130px;
+}
+
+.due-dates{
+  margin-top: 320px;
+  margin-left: -392px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 88px;
+}
+.due-dates ul {
+  list-style: none;
+  margin-top: 30px;
+}
